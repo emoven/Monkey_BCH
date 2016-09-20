@@ -1,0 +1,45 @@
+/* 
+  Localizable.strings
+  Monkey_BCH
+
+  Created by yiliao on 16/9/20.
+  Copyright © 2016年 Yao. All rights reserved.
+*/
+
+"china"="China";
+"world"="World";
+
+//中国的城市
+"beijing"="beijing";
+"shanghai"="shanghai";
+"shenzhen"="shenzhen";
+"hangzhou"="hangzhou";
+"guangzhou"="guangzhou";
+"chengdu"="chengdu";
+"nanjing"="nanjing";
+"wuhan"="wuhan";
+"suzhou"="suzhou";
+"xiamen"="xiamen";
+"tianjin"="tianjin";
+"chongqing"="chongqing";
+"changsha"="changsha";
+
+"all languages"="all languages";
+"city"="city";
+"language"="language";
+"Language"="Language";
+
+"Discovery"="Discovery";
+"login"="login";
+"about"="about";
+"feedback"="feedback";
+"search"="search";
+"logout"="logout";
+"Author"="Author";
+"Version"="Version";
+"cancel"="cancel";
+
+"News"="News";
+"More"="More";
+"Select City"="Select City";
+"Select Country"="Select Country";
