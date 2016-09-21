@@ -40,8 +40,13 @@
 "Author"="作者";
 "Version"="版本";
 "cancel"="取消";
+"confirm"="确定";
 
 "News"="动态";
 "More"="更多";
 "Select City"="选择城市";
 "Select Country"="选择国家";
+
+"loading"="  加载 ...  ";
+"noNetwork"="网络有误";
+"success"="成功";

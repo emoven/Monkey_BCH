@@ -190,6 +190,11 @@
 		2DE064001D91292600171F6A /* BCHRepositoriesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE063FF1D91292600171F6A /* BCHRepositoriesModel.m */; };
 		2DE064041D912FB800171F6A /* BCHRepositoriesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE064021D912FB800171F6A /* BCHRepositoriesCell.m */; };
 		2DE064051D912FB800171F6A /* BCHRepositoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DE064031D912FB800171F6A /* BCHRepositoriesCell.xib */; };
+		2DE064091D92112100171F6A /* BCHLoginWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE064071D92112100171F6A /* BCHLoginWebViewController.m */; };
+		2DE0640A1D92112100171F6A /* BCHLoginWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DE064081D92112100171F6A /* BCHLoginWebViewController.xib */; };
+		2DE0640D1D92537600171F6A /* UIAlertController+BCHHelperKitUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE0640C1D92537600171F6A /* UIAlertController+BCHHelperKitUIKit.m */; };
+		2DE064101D92683500171F6A /* UIView+BCHAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE0640F1D92683500171F6A /* UIView+BCHAlert.m */; };
+		2DE064131D926D9400171F6A /* UIView+BCHActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DE064121D926D9400171F6A /* UIView+BCHActionSheet.m */; };
 		801E8949533FE83C117BC9A4 /* libPods-Monkey_BCH.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 822F5175D0FF894E62B6B580 /* libPods-Monkey_BCH.a */; };
 /* End PBXBuildFile section */
 
@@ -572,6 +577,15 @@
 		2DE064011D912FB800171F6A /* BCHRepositoriesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCHRepositoriesCell.h; sourceTree = "<group>"; };
 		2DE064021D912FB800171F6A /* BCHRepositoriesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCHRepositoriesCell.m; sourceTree = "<group>"; };
 		2DE064031D912FB800171F6A /* BCHRepositoriesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BCHRepositoriesCell.xib; sourceTree = "<group>"; };
+		2DE064061D92112100171F6A /* BCHLoginWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCHLoginWebViewController.h; sourceTree = "<group>"; };
+		2DE064071D92112100171F6A /* BCHLoginWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCHLoginWebViewController.m; sourceTree = "<group>"; };
+		2DE064081D92112100171F6A /* BCHLoginWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BCHLoginWebViewController.xib; sourceTree = "<group>"; };
+		2DE0640B1D92537600171F6A /* UIAlertController+BCHHelperKitUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+BCHHelperKitUIKit.h"; sourceTree = "<group>"; };
+		2DE0640C1D92537600171F6A /* UIAlertController+BCHHelperKitUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+BCHHelperKitUIKit.m"; sourceTree = "<group>"; };
+		2DE0640E1D92683500171F6A /* UIView+BCHAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BCHAlert.h"; sourceTree = "<group>"; };
+		2DE0640F1D92683500171F6A /* UIView+BCHAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BCHAlert.m"; sourceTree = "<group>"; };
+		2DE064111D926D9400171F6A /* UIView+BCHActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BCHActionSheet.h"; sourceTree = "<group>"; };
+		2DE064121D926D9400171F6A /* UIView+BCHActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BCHActionSheet.m"; sourceTree = "<group>"; };
 		3F693E20F037B5DFB592F967 /* Pods-Monkey_BCH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monkey_BCH.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Monkey_BCH/Pods-Monkey_BCH.debug.xcconfig"; sourceTree = "<group>"; };
 		822F5175D0FF894E62B6B580 /* libPods-Monkey_BCH.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Monkey_BCH.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACC47D5BAFFD2A52F269676 /* Pods-Monkey_BCH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Monkey_BCH.release.xcconfig"; path = "Pods/Target Support Files/Pods-Monkey_BCH/Pods-Monkey_BCH.release.xcconfig"; sourceTree = "<group>"; };
@@ -918,6 +932,9 @@
 		2D6ACDCD1D8FE82300D5CD8D /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				2DE064061D92112100171F6A /* BCHLoginWebViewController.h */,
+				2DE064071D92112100171F6A /* BCHLoginWebViewController.m */,
+				2DE064081D92112100171F6A /* BCHLoginWebViewController.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -1538,6 +1555,12 @@
 			isa = PBXGroup;
 			children = (
 				2D6ACEC31D8FE82300D5CD8D /* BCHHelperUIKit.h */,
+				2DE0640E1D92683500171F6A /* UIView+BCHAlert.h */,
+				2DE0640F1D92683500171F6A /* UIView+BCHAlert.m */,
+				2DE064111D926D9400171F6A /* UIView+BCHActionSheet.h */,
+				2DE064121D926D9400171F6A /* UIView+BCHActionSheet.m */,
+				2DE0640B1D92537600171F6A /* UIAlertController+BCHHelperKitUIKit.h */,
+				2DE0640C1D92537600171F6A /* UIAlertController+BCHHelperKitUIKit.m */,
 				2D6ACEC41D8FE82300D5CD8D /* UIActionSheet+BCHHelperKitUIKit.h */,
 				2D6ACEC51D8FE82300D5CD8D /* UIActionSheet+BCHHelperKitUIKit.m */,
 				2D6ACEC61D8FE82300D5CD8D /* UIAlertView+BCHHelperKitUIKit.h */,
@@ -1774,6 +1797,7 @@
 				2DE0622D1D8FF0BE00171F6A /* BCHMoreViewController.xib in Resources */,
 				2D6ACF211D8FE82300D5CD8D /* UINavigationController+FDFullscreenPopGesture.h.zip in Resources */,
 				2DE064051D912FB800171F6A /* BCHRepositoriesCell.xib in Resources */,
+				2DE0640A1D92112100171F6A /* BCHLoginWebViewController.xib in Resources */,
 				2DE062281D8FF0B100171F6A /* BCHDiscoveryViewController.xib in Resources */,
 				2DE063D91D90CFD200171F6A /* BCHBelongToChinaUsersViewController.xib in Resources */,
 			);
@@ -1903,6 +1927,7 @@
 				2D6ACF011D8FE82300D5CD8D /* NSObject+Runtime.m in Sources */,
 				2DE062081D8FEE7900171F6A /* MCAnimationGroupInternal.m in Sources */,
 				2DE062011D8FEE7900171F6A /* MCBasicAnimation.m in Sources */,
+				2DE064091D92112100171F6A /* BCHLoginWebViewController.m in Sources */,
 				2D6ACF061D8FE82300D5CD8D /* NSString+Trims.m in Sources */,
 				2DE0620C1D8FEE7900171F6A /* UIView+MCShorthand.m in Sources */,
 				2D6ACF531D8FE82300D5CD8D /* UIView+BCHHelperBlockKit.m in Sources */,
@@ -1933,8 +1958,10 @@
 				2D6ACF191D8FE82300D5CD8D /* UIImage+RoundedCorner.m in Sources */,
 				2D6ACED91D8FE82300D5CD8D /* NSMutableAttributedString+BCHHelperKit.m in Sources */,
 				2D6ACF451D8FE82300D5CD8D /* NSString+BCHHelperKit.m in Sources */,
+				2DE0640D1D92537600171F6A /* UIAlertController+BCHHelperKitUIKit.m in Sources */,
 				2D6ACF2B1D8FE82300D5CD8D /* UIView+Borders.m in Sources */,
 				2DE063D31D90CB6500171F6A /* BCHBelongToThisCityUsersViewController.m in Sources */,
+				2DE064101D92683500171F6A /* UIView+BCHAlert.m in Sources */,
 				2D6ACEF41D8FE82300D5CD8D /* NSDate+Formatter.m in Sources */,
 				2DE063E81D9100DD00171F6A /* BCHCountryViewController.m in Sources */,
 				2D6ACEF21D8FE82300D5CD8D /* PassWordTool.m in Sources */,
@@ -1951,6 +1978,7 @@
 				2D6ACF1D1D8FE82300D5CD8D /* UIImageView+FaceAwareFill.m in Sources */,
 				2D6ACF131D8FE82300D5CD8D /* UIImage+CalculatedSize.m in Sources */,
 				2D6ACF4E1D8FE82300D5CD8D /* UIView+BCHMasonryKit.m in Sources */,
+				2DE064131D926D9400171F6A /* UIView+BCHActionSheet.m in Sources */,
 				2DE0621D1D8FF09300171F6A /* BCHUsersViewController.m in Sources */,
 				2D6ACF4B1D8FE82300D5CD8D /* UIScrollView+BCHMasonryKit.m in Sources */,
 				2DE062041D8FEE7900171F6A /* MCSpringAnimation.m in Sources */,

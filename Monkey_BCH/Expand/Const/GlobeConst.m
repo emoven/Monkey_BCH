@@ -83,4 +83,4 @@ NSString *const TYTabBarItemDidRepeatClickNotification = @"TYTabBarItemDidRepeat
 NSString * const kSelectCityKey = @"kSelectCityKey";
 NSString * const kSelectCountryKey = @"kSelectCountryKey";
 NSString * const kSelectLanguageKey = @"kSelectLanguageKey";
-
+NSString * const kAccess_tokenKey = @"access_token";

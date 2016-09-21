@@ -40,8 +40,13 @@
 "Author"="Author";
 "Version"="Version";
 "cancel"="cancel";
+"confirm"="confirm";
 
 "News"="News";
 "More"="More";
 "Select City"="Select City";
 "Select Country"="Select Country";
+
+"loading"="  loading ...  ";
+"noNetwork"="No NetWork";
+"success"="success";

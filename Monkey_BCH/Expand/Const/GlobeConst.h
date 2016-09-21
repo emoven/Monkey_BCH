@@ -84,5 +84,5 @@ UIKIT_EXTERN NSString *const TYTabBarItemDidRepeatClickNotification;
 UIKIT_EXTERN NSString * const kSelectCityKey;
 UIKIT_EXTERN NSString * const kSelectCountryKey;
 UIKIT_EXTERN NSString * const kSelectLanguageKey;
-
+UIKIT_EXTERN NSString * const kAccess_tokenKey;
 

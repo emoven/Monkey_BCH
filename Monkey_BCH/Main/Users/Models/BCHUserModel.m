@@ -13,3 +13,9 @@
     return @{@"uid" : @[@"id"]};
 }
 @end
+
+@implementation BCHPlanModel
+
+
+
+@end

@@ -12,3 +12,6 @@
 #import "UIDevice+BCHHelperKitUIKit.h"
 #import "UIColor+BCHHelperKitUIKit.h"
 #import "UIImage+BCHHelperKitUIKit.h"
+#import "UIAlertController+BCHHelperKitUIKit.h"
+#import "UIView+BCHAlert.h"
+#import "UIView+BCHActionSheet.h"

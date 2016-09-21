@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BCHLoginWebViewController">
+            <connections>
+                <outlet property="contentView" destination="oEW-yS-bh8" id="f2S-Pm-o8d"/>
+                <outlet property="customNavigationBar" destination="HcF-U7-SF9" id="018-4q-ZVK"/>
+                <outlet property="customNavigationItem" destination="Zkn-wM-pQF" id="VUH-va-6ok"/>
+                <outlet property="progressBar" destination="Eoc-4d-pkB" id="Egm-MW-pTf"/>
+                <outlet property="view" destination="NIw-gs-LEI" id="4Nh-uS-eeU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="NIw-gs-LEI">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oEW-yS-bh8" userLabel="contentView">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                    <color key="backgroundColor" red="0.86510587993421051" green="0.42431640625" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="Eoc-4d-pkB">
+                    <rect key="frame" x="0.0" y="64" width="375" height="3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="2" id="Kji-62-bLZ"/>
+                        <constraint firstAttribute="height" constant="2" id="zNd-ob-Nux"/>
+                    </constraints>
+                    <color key="progressTintColor" red="0.20000000000000001" green="0.85882352939999995" blue="0.67450980390000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="trackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </progressView>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HcF-U7-SF9">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <color key="barTintColor" red="0.0039215686269999999" green="0.4823529412" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <items>
+                        <navigationItem id="Zkn-wM-pQF"/>
+                    </items>
+                </navigationBar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="HcF-U7-SF9" secondAttribute="trailing" id="6kB-pd-IId"/>
+                <constraint firstItem="Eoc-4d-pkB" firstAttribute="top" secondItem="HcF-U7-SF9" secondAttribute="bottom" id="FbV-0k-1Mj"/>
+                <constraint firstAttribute="trailing" secondItem="Eoc-4d-pkB" secondAttribute="trailing" id="S55-bf-UbP"/>
+                <constraint firstItem="HcF-U7-SF9" firstAttribute="leading" secondItem="NIw-gs-LEI" secondAttribute="leading" id="fK7-MW-dEO"/>
+                <constraint firstItem="HcF-U7-SF9" firstAttribute="top" secondItem="NIw-gs-LEI" secondAttribute="top" id="fZs-YE-L4k"/>
+                <constraint firstAttribute="bottom" secondItem="oEW-yS-bh8" secondAttribute="bottom" id="hLG-UU-yfB"/>
+                <constraint firstItem="Eoc-4d-pkB" firstAttribute="top" secondItem="NIw-gs-LEI" secondAttribute="top" constant="64" id="hRG-iU-jGZ"/>
+                <constraint firstAttribute="trailing" secondItem="oEW-yS-bh8" secondAttribute="trailing" id="oEj-I5-IlK"/>
+                <constraint firstItem="oEW-yS-bh8" firstAttribute="top" secondItem="NIw-gs-LEI" secondAttribute="top" constant="64" id="oPb-vj-RHA"/>
+                <constraint firstItem="oEW-yS-bh8" firstAttribute="leading" secondItem="NIw-gs-LEI" secondAttribute="leading" id="r2e-4t-n9E"/>
+                <constraint firstItem="Eoc-4d-pkB" firstAttribute="leading" secondItem="NIw-gs-LEI" secondAttribute="leading" id="s9G-0j-Tpn"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="345.5" y="-4.5"/>
+        </view>
+    </objects>
+</document>

@@ -738,13 +738,14 @@ static inline NSString *cachePath() {
         }
       }
       
-      manager.responseSerializer.acceptableContentTypes = [NSSet setWithArray:@[@"application/json",
-                                                                                @"text/html",
-                                                                                @"text/json",
-                                                                                @"text/plain",
-                                                                                @"text/javascript",
-                                                                                @"text/xml",
-                                                                                @"image/*"]];
+      manager.responseSerializer.acceptableContentTypes =
+        [NSSet setWithArray:@[
+                              @"application/json",@"text/html",
+                              @"text/json",@"text/plain",
+                              @"text/javascript",@"text/xml",
+                              @"image/*",@"application/x-plist",
+                              @"application/x-www-form-urlencoded"]];
+        //,@"application/x-plist",@"application/x-www-form-urlencoded"
       
       manager.requestSerializer.timeoutInterval = sg_timeout;
       
